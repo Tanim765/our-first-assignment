@@ -53,6 +53,52 @@ body {
 }
 
 /*Main section*/
+/*feature section*/
+.feature-section {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.feature-head{
+    color: #272727;
+text-align: center;
+font-size: 30px;
+font-weight: 500;
+}
+.feature-content{
+    font-size: 11px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.feature-img {
+    display: flex;
+    margin: 20px 300px 0 300px;
+    align-items: center;
+}
+
+.feature-img-cont {
+    margin-right: 20px;
+    background-color: rgb(194, 194, 158);
+    width: 250px;
+    height: 250px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    border-radius: 300px 300px 0 0;
+
+}
+
+.feature-pic {
+
+
+    height: 250px;
+    width: 200px;
+
+
+
+}
+
+
+/*seal section*/
 .sell-section {
     background-color: rgba(183, 194, 25, 0.05);
     display: flex;
@@ -136,8 +182,71 @@ body {
 }
 
 /*deals section*/
-.deal-section{
-    
-    background-image: url("Rectangle\ 9.png");
-   background-position: center;
-} 
+.deal-section {
+    background-image: url(Rectangle\ 9.png);
+    text-align: center;
+    height: 380px;
+    border-radius: 8px;
+    margin: 0 110px 60px 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.deal-heading {
+    padding-top: 70px;
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.deal-pakage {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+#email {
+    width: 500px;
+    height: 44px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    margin-right: 20px;
+}
+
+.email-section {
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+}
+
+
+
+
+/*footer section*/
+.footer-section {
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 400px;
+
+}
+
+.footer-heading {
+    padding-top: 70px;
+    font-size: 30px;
+    font-weight: 800
+}
+
+.footer-content {
+    text-align: center;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.owner-sign {
+    color: (255, 255, 255, 0.40);
+}
